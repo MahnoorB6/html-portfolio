@@ -129,3 +129,7 @@ body.dark .contactlinks .social-link{background:#321722;border-color:#5b3040}
 body.dark .email-icon{background:#5b2337;color:#f7a8c1}
 body.dark .github-icon{background:#f1d7e0;color:#32111e}
 body.dark .linkedin-icon{background:#34475e;color:#c8dcf4}
+
+/* GitHub Octocat logo */
+.github-icon{font-size:0!important}
+.github-icon svg{width:22px;height:22px;display:block}
