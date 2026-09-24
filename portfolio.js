@@ -1,0 +1,1 @@
+const b=document.getElementById('theme');if(localStorage.theme==='dark'){document.body.classList.add('dark');b.textContent='☀'}b.onclick=()=>{document.body.classList.toggle('dark');let d=document.body.classList.contains('dark');localStorage.theme=d?'dark':'light';b.textContent=d?'☀':'☾'};
