@@ -167,3 +167,120 @@ body.dark .linkedin-icon{background:#34475e;color:#c8dcf4}
   .contactbox h2{font-size:40px}
   body>footer .wrap{gap:8px;flex-direction:column}
 }
+
+
+/* Portrait-inspired palette — warm blush, dusty rose, taupe, cream */
+:root{
+  --bg:#f7f1ee;
+  --white:#fffaf8;
+  --soft:#efe6e3;
+  --text:#3a2d2c;
+  --muted:#776968;
+  --lav:#9b7f86;
+  --rose:#c98786;
+  --blue:#a7afb0;
+  --line:#e3d6d2;
+  --sage:#8d9992;
+  --red:#9d6267;
+  --crimson:#ad6e72;
+  --pink:#d99a98;
+  --blush:#e9b7ae;
+  --plum:#6d4e53;
+  --wine:#4a3033;
+  --gold:#b69a79;
+  --shadow:0 22px 60px rgba(82,60,60,.12)
+}
+body{
+  background:
+    radial-gradient(circle at 8% 8%,#efd0c9 0,transparent 22%),
+    radial-gradient(circle at 92% 10%,#ddd3d0 0,transparent 22%),
+    var(--bg);
+  color:var(--text)
+}
+header{background:rgba(247,241,238,.94);border-bottom-color:var(--line)}
+.brand b{background:linear-gradient(145deg,#9d6267,#d99a98)}
+.links a:hover{color:#a7656a}
+.hero:before{
+  background-image:
+    radial-gradient(circle,#c9878640 1px,transparent 1.5px),
+    radial-gradient(circle,#9b7f8630 1px,transparent 1.5px)
+}
+.hero em,h2 em{color:#ad6e72}
+.eyebrow{color:#9d6267}
+.primary,.resume{background:linear-gradient(135deg,#8f595f,#b9787a);box-shadow:0 10px 24px rgba(143,89,95,.20)}
+.primary:hover,.resume:hover{background:linear-gradient(135deg,#a7656a,#d08b89)}
+.plain:hover{color:#a7656a}
+.orb.a{background:linear-gradient(145deg,#d99a98,#e9b7ae,#b9a4a4);box-shadow:0 30px 80px rgba(157,98,103,.22)}
+.orb.b{background:linear-gradient(145deg,#d8c9c5,#a7afb0)}
+.professional-card .card,.character-card{
+  background:linear-gradient(145deg,#fffaf8,#f3e5e1)!important;
+  border-color:#eee0dc!important;
+  box-shadow:0 24px 65px rgba(82,60,60,.14)!important
+}
+.professional-card .card-mark,.character-card .card-mark{background:linear-gradient(145deg,#9d6267,#d99a98)!important}
+.status-dot{background:#8d9992}
+.xp{background:#e5d8d4}
+.xp i,.skill-meter i{background:linear-gradient(90deg,#ad6e72,#d99a98,#e9b7ae)}
+.focus-list span{background:#f7ece9!important;border-color:#dfc9c4!important;color:#6d4e53}
+.stats b{color:#9d6267}
+.tinted{background:linear-gradient(135deg,#f0e7e4,#eee9e7 55%,#e7ecea)}
+.skills article,.project{border-color:var(--line);box-shadow:0 10px 30px rgba(82,60,60,.05)}
+.skills article>b{background:linear-gradient(135deg,#efd8d4,#e5c0ba);color:#8f595f}
+.project small{color:#9d6267}
+.project.feature{background:linear-gradient(145deg,#4a3033,#69474b 58%,#8b5b5e)!important;box-shadow:0 24px 55px rgba(74,48,51,.22)}
+.project.feature:after{color:#efc7c0}
+.project:hover{border-color:#c99c9c;box-shadow:0 16px 38px rgba(82,60,60,.10)}
+.profile-section{background:linear-gradient(135deg,#fff8f5,#f3e4e1 52%,#ece9e8);border-color:var(--line)}
+.profile-photo img{box-shadow:0 22px 55px rgba(82,60,60,.16)}
+.profile-tags span{background:#fff7f4;border-color:#dfcbc6;color:#6d4e53}
+.timeline:before{background:linear-gradient(#9d6267,#d99a98,#b69a79,transparent)}
+.timeline article:before{background:#c98786}
+.chips span{background:#fff9f7;border-color:#dfcbc6;color:#6d4e53}
+.contact{background:linear-gradient(135deg,#ead8d5,#e2cac8 48%,#d9d8d7)!important}
+.contactbox{box-shadow:0 22px 60px rgba(82,60,60,.11);border-color:#f9eeeb}
+.contactbox:before{color:#9d6267}
+.contactlinks a{border-color:#dfcbc6;box-shadow:0 10px 25px rgba(82,60,60,.06)}
+.email-icon{background:#f1d9d5;color:#9d6267}
+.linkedin-icon{background:#dfe5e5;color:#556f76}
+.github-icon{background:#3a2d2c;color:#fff}
+body>footer{background:#4a3033;color:#ead9d5}
+body>footer .wrap{color:#ead9d5}
+body.dark{
+  --bg:#201a1a;
+  --white:#2d2525;
+  --soft:#332a2a;
+  --text:#f8efed;
+  --muted:#c8b9b7;
+  --lav:#b9a0a4;
+  --rose:#d99a98;
+  --blue:#aab5b5;
+  --line:#4d4040;
+  --sage:#9eaaa3;
+  --red:#d28b8c;
+  --crimson:#df9b99;
+  --pink:#e7aaa2;
+  --blush:#efc1b7;
+  --plum:#e2c2c1;
+  --wine:#201a1a;
+  --gold:#c9ad89
+}
+body.dark{
+  background:
+    radial-gradient(circle at 10% 5%,#513a3d 0,transparent 25%),
+    radial-gradient(circle at 88% 12%,#3e3b3b 0,transparent 25%),var(--bg)
+}
+body.dark header{background:rgba(32,26,26,.94)}
+body.dark .character-card,.dark .professional-card .card{background:linear-gradient(145deg,#342a2a,#2b2323)!important;border-color:#514343!important}
+body.dark .focus-list span{background:#342a2a!important;border-color:#5a4a4a!important;color:#efd1cc}
+body.dark .tinted{background:linear-gradient(135deg,#2b2323,#332a2a,#292d2c)}
+body.dark .skills article,.dark .project{background:#2a2222;border-color:#4d3d3d}
+body.dark .project.feature{background:linear-gradient(145deg,#211819,#493235)!important}
+body.dark .profile-section{background:linear-gradient(135deg,#241d1d,#322727,#292727)}
+body.dark .profile-tags span,.dark .chips span{background:#332a2a;border-color:#594848;color:#efceca}
+body.dark .contact{background:linear-gradient(135deg,#493537,#4d3b3b,#343737)!important}
+body.dark .contactbox{background:#2d2525;border-color:#574747}
+body.dark .contactlinks a{background:#342a2a;border-color:#5a4a4a}
+body.dark .email-icon{background:#51383a;color:#efaaa6}
+body.dark .github-icon{background:#f0dfdc;color:#3a2d2c}
+body.dark .linkedin-icon{background:#3d4a4b;color:#d3e1e0}
+body>footer{letter-spacing:.1px}
